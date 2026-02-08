@@ -98,7 +98,7 @@ The keyboard uses a **layered system** to support both typing modes.
 Switching layers allows the same hardware to behave as either a normal keyboard or a steno machine.
 
 ---
-##Diagram
+## Diagram
 <p align="center">
   <img src="images/Diagram.PNG" alt="Keyboard Diagram" width="600">
 </p>
