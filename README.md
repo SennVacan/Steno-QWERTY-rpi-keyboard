@@ -1,4 +1,4 @@
-# Steno-QWERTY Raspberry Pi Keyboard ⌨️
+# Steno-QWERTY Raspberry Pi Keyboard 
 
 A custom mechanical keyboard project powered by the **Raspberry Pi Pico (RP2040)** and **KMK Firmware**.  
 This keyboard operates as both a standard **QWERTY keyboard** and a high-speed **stenography machine**, making it suitable for everyday typing and professional steno workflows.
@@ -7,7 +7,7 @@ The firmware is Python-based using **CircuitPython + KMK**, allowing fast iterat
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Dual Mode Operation**  
   Seamlessly switch between standard QWERTY typing and Steno protocols (GeminiPR / TXBolt).
@@ -26,7 +26,7 @@ The firmware is Python-based using **CircuitPython + KMK**, allowing fast iterat
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project bridges mechanical keyboard design with stenography input systems.  
 Instead of maintaining two devices, users can type normally in QWERTY mode and instantly switch to steno mode for high-speed transcription.
@@ -35,7 +35,7 @@ KMK’s modular system enables layered keymaps and steno protocol handling witho
 
 ---
 
-## 🛠 Hardware Requirements
+## Hardware Requirements
 
 | Component | Description |
 |---------|------------|
@@ -48,7 +48,7 @@ KMK’s modular system enables layered keymaps and steno protocol handling witho
 
 ---
 
-## ⚡ Software Requirements
+## Software Requirements
 
 - CircuitPython  
 - KMK Firmware  
@@ -56,7 +56,7 @@ KMK’s modular system enables layered keymaps and steno protocol handling witho
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1️⃣ Install CircuitPython
 
@@ -84,7 +84,7 @@ KMK’s modular system enables layered keymaps and steno protocol handling witho
 
 ---
 
-## ⌨️ Layout Configuration
+## Layout Configuration
 
 The keyboard uses a **layered system** to support both typing modes.
 
@@ -98,8 +98,13 @@ The keyboard uses a **layered system** to support both typing modes.
 Switching layers allows the same hardware to behave as either a normal keyboard or a steno machine.
 
 ---
+##Diagram
+<p align="center">
+  <img src="images/Diagram.PNG" alt="Keyboard Diagram" width="600">
+</p>
 
-## 🧩 Steno Module Setup
+---
+## Steno Module Setup
 
 The firmware is configured for the **GeminiPR protocol**:
 
